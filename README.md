@@ -6,6 +6,7 @@
 
 ```bash
 yarn install
+yarn build
 make link
 ```
 
