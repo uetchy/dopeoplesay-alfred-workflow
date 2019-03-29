@@ -13,5 +13,5 @@ make link
 ### Build Package
 
 ```bash
-yarn pack # to generate workflow package in pkg/
+yarn pack # will generates a compressed workflow in pkg/
 ```
