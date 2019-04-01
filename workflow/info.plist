@@ -8,24 +8,11 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>136F6711-4365-4C8A-BBCA-3DF2B0053678</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</string>
+				<string>136F6711-4365-4C8A-BBCA-3DF2B0053678</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -67,12 +54,11 @@
 				<key>queuedelaymode</key>
 				<integer>1</integer>
 				<key>queuemode</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Searching ...</string>
 				<key>script</key>
 				<string>query="{query}"
-
 ./dps "$query"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -81,7 +67,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Do People Say</string>
+				<string>Do People Say "{query}" ?</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -91,31 +77,6 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>query="{query}"
-
-echo -n $query</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -141,24 +102,17 @@ echo -n $query</string>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</key>
-		<dict>
-			<key>xpos</key>
-			<integer>270</integer>
-			<key>ypos</key>
-			<integer>50</integer>
-		</dict>
 		<key>136F6711-4365-4C8A-BBCA-3DF2B0053678</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>340</integer>
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
 		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>90</integer>
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
