@@ -1,44 +1,44 @@
 {
   "name": "dopeoplesay-alfred-workflow",
   "description": "Do People Say Alfred Workflow",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
   "scripts": {
-    "build": "pkg . --target node10 --output ./workflow/dps",
-    "pack": "yarn build && make package"
+    "build": "pkg . --target node14 --output ./workflow/dps",
+    "package": "yarn build && make package"
   },
   "dependencies": {
     "dopeoplesay-cli": "^2.1.0"
   },
   "devDependencies": {
-    "husky": "^2.4.1",
-    "lint-staged": "^8.2.0",
-    "pkg": "^4.4.0",
-    "prettier": "^1.18.2",
-    "pretty-quick": "^1.11.0"
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.0",
+    "pkg": "^4.4.8",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
   },
-  "bin": "index.js",
-  "bugs": {
-    "url": "https://github.com/uetchy/dopeoplesay-alfred-workflow/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uetchy/dopeoplesay-alfred-workflow.git"
   },
-  "homepage": "https://github.com/uetchy/dopeoplesay-alfred-workflow",
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && lint-staged"
-    }
-  },
-  "keywords": [
-    "dopeoplesay-alfred-workflow"
-  ],
-  "license": "MIT",
   "lint-staged": {
     "*.js": [
       "eslint --fix",
       "git add"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/uetchy/dopeoplesay-alfred-workflow.git"
-  }
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && lint-staged"
+    }
+  },
+  "license": "MIT",
+  "bin": "index.js",
+  "bugs": {
+    "url": "https://github.com/uetchy/dopeoplesay-alfred-workflow/issues"
+  },
+  "homepage": "https://github.com/uetchy/dopeoplesay-alfred-workflow",
+  "keywords": [
+    "dopeoplesay-alfred-workflow"
+  ]
 }

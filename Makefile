@@ -1,4 +1,4 @@
-ALFRED_WORKFLOW_PATH ?= ~/Library/Application Support/Alfred 3/Alfred.alfredpreferences/workflows
+ALFRED_WORKFLOW_PATH ?= ~/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows
 SYMLINK_TARGET = ${ALFRED_WORKFLOW_PATH}/${BUNDLE_ID}
 
 

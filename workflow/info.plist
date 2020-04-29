@@ -39,6 +39,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -78,7 +80,7 @@
 			<key>uid</key>
 			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -95,7 +97,7 @@
 			<key>uid</key>
 			<string>136F6711-4365-4C8A-BBCA-3DF2B0053678</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
