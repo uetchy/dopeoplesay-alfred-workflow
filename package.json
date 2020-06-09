@@ -8,11 +8,11 @@
     "package": "yarn build && make package"
   },
   "dependencies": {
-    "dopeoplesay-cli": "^2.1.0"
+    "dopeoplesay": "^3.0.0"
   },
   "devDependencies": {
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.0",
+    "lint-staged": "^10.2.9",
     "pkg": "^4.4.8",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1"

@@ -1,4 +1,4 @@
-const { fetchDOM, parse } = require('dopeoplesay-cli')
+const { search } = require('dopeoplesay')
 
 function output(obj) {
   // eslint-disable-next-line no-console
@@ -8,9 +8,8 @@ function output(obj) {
 async function main(argv, limit = 15) {
   const query = argv[0]
 
-  const dom = await fetchDOM(query)
-  const { collocations } = parse(dom, {
-    trimLine: true,
+  const { collocations } = await search(query, {
+    trim: true,
     color: false,
   })
 
